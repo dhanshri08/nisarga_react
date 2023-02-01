@@ -1,0 +1,148 @@
+
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .owl-nav {
+        display: none;
+    }
+
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1400px !important;
+        }
+    }
+
+    .btn1 {
+        display: block;
+        float: right;
+        background-color: #44ba48;
+        border-radius: 20px;
+        border: 0;
+        padding: 5px 0px
+    }
+    .btn1>a{
+        color:white;
+    }
+
+    .checked {
+        color: orange;
+    }
+
+    .card-deck .card:hover {
+        /*border: 1px solid black;*/
+        box-shadow: 4px 4px 4px grey;
+
+    }
+
+    .top-header {
+        background-color: #44ba48;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.5;
+        letter-spacing: 1.475px;
+    }
+    .mar {
+        color: #e4bb85;
+    }
+
+    .carousel-item img {
+        height: 450px;
+        width: 100%;
+    }
+
+    .work-wrap .text {
+        width: 70%;
+    }
+
+    .work-wrap .img {
+        width: 30%;
+    }
+
+    @media (max-width: 767.98px) {
+
+        .work-wrap .text,
+        .work-wrap .img {
+            width: 100%;
+        }
+    }
+
+    .work-wrap .img {
+        height: 360px;
+    }
+
+    .work-wrap .text {
+        height: 360px;
+    }
+
+    .work-wrap .text h2 {
+        font-size: 40px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    @media (max-width: 991.98px) {
+        .work-wrap .text h2 {
+            font-size: 40px;
+        }
+    }
+
+    .img {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: unset;
+    }
+
+    .owl-carousel .owl-dots {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 0;
+        margin-right: -40px;
+        display: none;
+    }
+
+    .owl-carousel .owl-dots {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .owl-carousel .owl-dots .owl-dot {
+        width: 10px;
+        height: 10px;
+        margin: 5px;
+        border-radius: 50%;
+        background: transparent;
+        position: relative;
+        border: 1px solid #000;
+    }
+
+    .owl-carousel .owl-dots .owl-dot:hover,
+    .owl-carousel .owl-dots .owl-dot:focus {
+        outline: none !important;
+    }
+
+    .owl-carousel .owl-dots .owl-dot.active {
+        background: #bd9e71;
+        border: 1px solid #bd9e71;
+    }
+
+    @media (min-width: 992px) {
+        .owl-carousel .owl-dots {
+            position: absolute;
+            top: 40%;
+            left: 0;
+            margin-top: 0;
+            margin-right: 0px
+        }
+
+        .owl-carousel .owl-dots .owl-dot {
+            display: block;
+        }
+    }
+
+    .owl-carousel.owl-drag .owl-item {
+        -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    }

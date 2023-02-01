@@ -1,0 +1,248 @@
+export const pokemons = [
+  {
+    id: 1,
+    nome: "Daily Moisturizing Cream",
+    tipo: "Body",
+    rupee: 175,
+    cut_rupee: 399,
+    gm: "40 gm",
+    off: "45",
+    footer:
+      "Save Extra 17/- discount on pack of 2 by Extra 5% and 70/- discount on pack of 4 by Extra 10%",
+    img: "/images/daily_cream/creame2.png",
+    a: "/creame", 
+  },
+  {
+    id: 2,
+    nome: "Hair Conditioning Mask",
+    tipo: "Hair",
+    rupee: 199,
+    cut_rupee: 349,
+    gm: "45 gm",
+    off: "40",
+    footer:
+      "Save Extra 17/- discount on pack of 2 by Extra 5% and 70/- discount on pack of 4 by Extra 10%",
+    img: "/images/hair_conditioning/conditioning1.png",
+    a: "/conditioning", 
+  },
+  {
+    id: 3,
+    nome: "Ubatan",
+    tipo: "Body",
+    rupee: 349,
+    cut_rupee: 199,
+    gm: "100 gm",
+    off: "45",
+    footer:
+      "Save Extra 20/- discount on pack of 2 by Extra 5% and 80/- discount on pack of 4 by Extra 10%",
+    img: "/images/ubatan/ubatan1.png",
+    a:"/ubatan",
+  },
+  {
+    id: 4,
+    nome: "Nisarga Ayurvedic Bath Powder",
+    tipo: "Body",
+    rupee: 349,
+    cut_rupee: 199,
+    gm: "100 gm",
+    off: "45",
+    footer:
+      "Save Extra 20/- discount on pack of 2 by Extra 5% and 80/- discount on pack of 4 by Extra 10%",
+    img: "/images/shampoo_powder/shampoo1.png",
+    a:"/shampoo",
+  },
+  {
+    id: 5,
+    nome: "Ayurvedic Hair Dye",
+    tipo: "Hair",
+    rupee: 349,
+    cut_rupee: 199,
+    gm: "100 gm",
+    off: "45",
+    footer:
+      "Save Extra 20/- discount on pack of 2 by Extra 5% and 80/- discount on pack of 4 by Extra 10%",
+    img: "/images/hair_dye/hair_dye1.png",
+    a:"/dye",
+  },
+  {
+    id: 6,
+    nome: "Ayurvedic Anti-Dandruff Powder",
+    tipo: "Hair",
+    rupee: 349,
+    cut_rupee: 199,
+    gm: "100 gm",
+    off: "45",
+    footer:
+      "Save Extra 20/- discount on pack of 2 by Extra 5% and 80/- discount on pack of 4 by Extra 10%",
+    img: "/images/antidandruff_powder/dandruff1.png",
+    a:"/dandruff",
+  },
+  {
+    id: 7,
+    nome: "Ayurvedic Pain Relief Oil",
+    tipo: "Body",
+    rupee: 449,
+    cut_rupee: 229,
+    gm: "100 ml",
+    off: "55",
+    footer:
+      "Save Extra 30/- discount on pack of 2 by Extra 5% and 91/- discount on pack of 4 by Extra 10%",
+    img: "/images/pain_relief_oil/painoil1.png",
+    a : "/reliefoil",
+  },
+  {
+    id: 8,
+    nome: "Hair Nourishment Powder",
+    tipo: "Hair",
+    rupee: 349,
+    cut_rupee: 199,
+    gm: "100 gm",
+    off: "45",
+    footer:
+      "Save Extra 20/- discount on pack of 2 by Extra 5% and 80/- discount on pack of 4 by Extra 10%",
+    img: "/images/hair_nourishment/nourishment4.png",
+    a:"nourishment",
+  },
+  {
+    id: 9,
+    nome: "Pigmentation Face Pack Powder",
+    tipo: "Face",
+    rupee: 199,
+    cut_rupee: 349,
+    gm: "100 gm",
+    off: "45",
+    footer:
+      "Save Extra 20/- discount on pack of 2 by Extra 5% and 80/- discount on pack of 4 by Extra 10%",
+    img: "/images/pigmentation_face_pack/pigmentation1.png",
+    a:"/pigmentation",
+  },
+  {
+    id: 10,
+    nome: "Anti-Hairfall Shampoo Powder",
+    tipo: "Hair",
+    rupee: 199,
+    cut_rupee: 349,
+    gm: "100 gm",
+    off: "45",
+    footer:
+      "Save Extra 20/- discount on pack of 2 by Extra 5% and 80/- discount on pack of 4 by Extra 10%",
+    img: "/images/shampoo_powder/shampoo1.png",
+    a:"shampoo"
+  },
+  {
+    id: 11,
+    nome: "Hair Regrowth Oil",
+    tipo: "Hair",
+    rupee: 229,
+    cut_rupee: 449,
+    gm: "100 ml",
+    off: "55",
+    footer:
+      "Save Extra 30/- discount on pack of 2 by Extra 5% and 91/- discount on pack of 4 by Extra 10%",
+    img: "/images/hair_oil/hairoil1.png",
+    a:"hairoil"
+  },
+  {
+    id: 12,
+    nome: "Face Pack Extra Glowing Skin",
+    tipo: "Face",
+    rupee: 199,
+    cut_rupee: 349,
+    gm: "100 gm",
+    off: "45",
+    footer:
+      "Save Extra 20/- discount on pack of 2 by Extra 5% and 80/- discount on pack of 4 by Extra 10%",
+    img: "/images/glowing_face_pack/glowing1.png",
+    a:"/glowing"
+  },
+  {
+    id: 13,
+    nome: "Face Pack For Skin Tightening",
+    tipo: "Face",
+    rupee: 199,
+    cut_rupee: 349,
+    gm: "100 gm",
+    off: "45",
+    footer:
+      "Save Extra 20/- discount on pack of 2 by Extra 5% and 80/- discount on pack of 4 by Extra 10%",
+    img: "/images/skin_tightening_face_pack/tightening1.png",
+    a:"/tightening"
+  },
+  {
+    id: 14,
+    nome: "Face Pack for Acne & Skin Infection",
+    tipo: "Face",
+    rupee: 199,
+    cut_rupee: 349,
+    gm: "100 gm",
+    off: "45",
+    footer:
+      "Save Extra 20/- discount on pack of 2 by Extra 5% and 80/- discount on pack of 4 by Extra 10%",
+    img: "/images/acne_and_skin_infection/acne1.png",
+    a:"acne"
+  },
+  {
+    id: 15,
+    nome: "COMPLETE HAIR FALL CONTROL KIT",
+    tipo: "Combo",
+    rupee: 847,
+    cut_rupee: 1496,
+    off: "45",
+    footer: "Extra 10% discount on pack of 4 and save extra 84.7/-",
+    img: "/images/combo/HAIRFALLCONTROL_COMBO/3.png",
+  },
+  {
+    id: 16,
+    nome: "COMPLETE DANDRUFF SOLUTION KIT",
+    tipo: "Combo",
+    rupee: 847,
+    cut_rupee: 1496,
+    off: "45",
+    footer: "Extra 10% discount on pack of 4 and save extra 84.7/-",
+    img: "/images/combo/ANTI_DANDRUFF_COMBO/2.png",
+  },
+  {
+    id: 17,
+    nome: "COMPLETE HAIR CONDITIONING KIT",
+    tipo: "Combo",
+    rupee: 648,
+    cut_rupee: 1147,
+    off: "45",
+    footer: "Extra 5% discount on pack of 3 and save extra 32.4/-",
+    img: "/images/combo/HAIRFALLCONTROL_COMBO/3.png",
+  },
+  {
+    id: 18,
+    nome: "COMPLETE FACE PACK COMBO",
+    tipo: "Combo",
+    rupee: 796,
+    cut_rupee: 1396,
+
+    off: "51",
+    footer: "Extra 10% discount on pack of 4 and save extra 84.7/-",
+    img: "/images/combo/HAIRFALLCONTROL_COMBO/3.png",
+  },
+];
+
+export const buttons = [
+  {
+    name: "Show All",
+    value: "all",
+  },
+  {
+    name: "Face",
+    value: "Face",
+  },
+  {
+    name: "Body",
+    value: "Body",
+  },
+  {
+    name: "Hair",
+    value: "Hair",
+  },
+  {
+    name: "Combo",
+    value: "Combo",
+  },
+];
